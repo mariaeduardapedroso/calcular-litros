@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>calcular combustivel</title>
+</head>
+
+<body>
+  <h1>Calculo de combustivel
+    <img class='logo' src="https://seeklogo.com/images/U/utfpr-universidade-tecnologica-federal-do-parana-logo-6CF2B55F31-seeklogo.com.png" />
+  </h1>
+  <div class='container'>
+    <label for='txtVelocidade'> Velocidade</label>
+    <input id="txtVelocidade" />
+    <div class='unit'> km/h </div>
+
+    <label for='txtTempo'> Tempo</label>
+    <input id="txtTempo" />
+    <div class='unit'> min </div>
+
+    <label for='txtRendimento'> Rendimento</label>
+    <input id="txtRendimento" />
+    <div class='unit'> km/l </div>
+    <button type='submit' inClick='calcularlitros' onClick='calcularlitros()'>Calcular</button>
+    <div class='conteudo' id="txtResultado"></div>
+  </div>
+
+</html>
